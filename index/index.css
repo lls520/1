@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 10px;
+}
+header {
+  display: flex;
+  width: 100%;
+  height: 8rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff8a00;
+  padding: 0 10rem;
+}
+header img {
+  width: 20.2rem;
+  height: 6.8rem;
+}
+header .wod img {
+  margin: 0 2rem;
+  width: 4.6rem;
+  height: 5.8rem;
+}
+nav {
+  width: 100%;
+  height: 47rem;
+  background: url(../img/index/banner.png) no-repeat 0 0;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+nav input {
+  width: 95%;
+  height: 6rem;
+  margin-bottom: 2.5rem;
+  text-indent: 6rem;
+  background: url(../img/index/seach.jpg) no-repeat 0.3rem 0.5rem;
+  background-size: 5rem;
+  background-color: white;
+  font-size: 1.4rem;
+  border-radius: 10px;
+  border: 1px solid gray;
+  color: #b1b0b0;
+  outline: none;
+}
+.zhu {
+  width: 100%;
+}
+.zhu hgroup {
+  width: 100%;
+  height: 20rem;
+  background-color: #ff8a00;
+  padding: 4rem 2rem;
+}
+.zhu hgroup ul {
+  display: flex;
+  justify-content: space-between;
+}
+.zhu hgroup ul li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.zhu hgroup ul li span {
+  color: white;
+  font-size: 2rem;
+}
+.zhu hgroup ul li img {
+  width: 11rem;
+  height: 11rem;
+}
+.zhu article {
+  width: 100%;
+}
+.zhu article img {
+  width: 100%;
+  height: 60rem;
+}
+.zhu article .retuan {
+  background-color: #ff8a00;
+  height: 10rem;
+  padding: 2rem;
+}
+.zhu article .retuan h2 {
+  font-size: 2.6rem;
+  color: white;
+}
+.zhu article .retuan p {
+  font-size: 1.8rem;
+  color: white;
+}
+.zhu .house {
+  padding: 0 3rem;
+  width: 100%;
+}
+.zhu .house ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.zhu .house ul a li {
+  border-bottom: 2px solid #b70000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
+}
+.zhu .house ul a li img {
+  width: 16rem;
+  height: 16rem;
+  margin-right: 5rem;
+}
+.zhu .house ul a li .box {
+  line-height: 1.8;
+  flex: 2;
+}
+.zhu .house ul a li .box h2 {
+  font-size: 4rem;
+}
+.zhu .house ul a li .box p {
+  display: flex;
+  justify-content: space-between;
+}
+.zhu .house ul a li .box p span {
+  font-size: 1.4rem;
+}
+.zhu .house ul a li .box p .or {
+  color: #ff8a00;
+}
+.zhu .house ul a li .box .gy span {
+  color: #577c9c;
+  background-color: #f4f7f9;
+  display: inline-block;
+  padding: 0.2rem;
+  text-align: center;
+  font-size: 1.4rem;
+  margin-right: 0.5rem;
+}
+.fu {
+  width: 100%;
+}
+.fu .ding {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 3rem 0 3rem;
+  border-bottom: 2px solid #ff8a00;
+  margin-bottom: 3rem;
+}
+.fu .ding button {
+  width: 50%;
+  border: none;
+  font-size: 3rem;
+  background-color: white;
+  padding-bottom: 3rem;
+  color: #636161;
+  transition: all 0.2s;
+}
+.fu .ding button:hover {
+  color: #ff8a00;
+}
+.fu .ding .oncli {
+  color: #ff8a00;
+  border-bottom: 3px solid #ff8a00;
+}
+.fu table {
+  width: 100%;
+}
+.fu table tbody {
+  margin-top: 2rem;
+}
+.fu table tbody tr td {
+  width: 50%;
+  text-indent: 10rem;
+  height: 4rem;
+}
+.fu table tbody tr td a {
+  font-size: 2rem;
+  color: #626262;
+  transition: all 0.2s;
+}
+.fu table tbody tr td a:hover {
+  color: #ff8a00;
+}
+.fu table .on {
+  display: none;
+}
+footer {
+  width: 100%;
+  height: 30rem;
+  background-color: #2f3130;
+  margin-top: 3rem;
+}
+footer p {
+  color: #c1c1c1;
+  font-size: 1.6rem;
+}
+footer h2 {
+  color: #c1c1c1;
+  font-size: 1.6rem;
+  margin: 0 2rem 2rem 2rem;
+  padding: 2rem 0;
+  border-bottom: 0.5px solid #c1c1c1;
+}
+footer .khd {
+  display: flex;
+  justify-content: space-around;
+}
+footer .khd .f {
+  display: flex;
+  justify-content: center;
+}
+footer .khd .f .iconfont {
+  font-size: 4rem;
+  color: white;
+  padding-right: 1rem;
+}
+footer .last {
+  margin-top: 3rem;
+  text-align: center;
+}

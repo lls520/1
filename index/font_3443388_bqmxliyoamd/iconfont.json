@@ -1,0 +1,23 @@
+{
+  "id": "3443388",
+  "name": "移动端",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "696569",
+      "name": "安卓logo",
+      "font_class": "anzhuologo",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "979232",
+      "name": "苹果",
+      "font_class": "pingguo",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    }
+  ]
+}
