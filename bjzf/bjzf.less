@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 10px;
+}
+
+// 头部
+header {
+    width: 100%;
+    padding-top: 1rem;
+    background-color: rgb(245, 245, 245);
+
+    .inp {
+        width: 92.5%;
+        height: 7rem;
+        line-height: 6.6rem;
+        margin: 0 auto;
+        border: 1px solid gray;
+        border-radius: 5px;
+        background-color: white;
+        display: flex;
+        margin-bottom: 4rem;
+
+        span {
+            font-size: 3rem;
+        }
+
+        input {
+            width: 80%;
+            outline: none;
+            border: none;
+            text-indent: 2rem;
+            font-size: 2rem;
+        }
+
+        p {
+            width: 11%;
+            height: 100%;
+            background: url(../img/SecondHandList/search_03.png) no-repeat 4rem 1rem;
+            background-size: 4rem;
+        }
+    }
+
+    ul {
+        width: 100%;
+        height: 8.5rem;
+        background-color: white;
+        padding: 0 2.8rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 2px solid rgb(197, 197, 197);
+        border-bottom: 2px solid rgb(195, 195, 195);
+
+        li {
+            font-size: 4.2rem;
+            display: flex;
+            align-items: flex-start;
+
+            span {
+                margin-left: .8rem;
+                margin-top: 1rem;
+                font-size: 1.8rem;
+            }
+        }
+    }
+}
+
+// 主体
+section {
+    padding: 3rem 6rem 6rem 6rem;
+    background-color: rgb(245, 245, 245);
+
+    ul {
+        li {
+            display: flex;
+            justify-content: space-between;
+            padding: 3rem 0;
+            border-bottom: 2px solid rgb(255, 138, 0);
+
+            img {
+                width: 16rem;
+                height: 16rem;
+
+            }
+
+            .box {
+                flex: 1;
+                margin-left: 3rem;
+                line-height: 1.6;
+
+                .t {
+                    font-size: 2rem;
+                }
+
+                h2 {
+                    font-size: 4rem;
+                }
+
+                .bl {
+                    font-size: 20px;
+                    color: rgb(171, 171, 171);
+
+                    span {
+                        font-size: 20px;
+                        color: rgb(171, 171, 171);
+                    }
+
+                    .or {
+                        color: rgb(255, 138, 0);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// 尾部
+footer {
+    width: 100%;
+    height: 30rem;
+    background-color: rgb(47, 49, 48);
+
+    p {
+        color: rgb(193, 193, 193);
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        color: rgb(193, 193, 193);
+        font-size: 1.6rem;
+        margin: 0 2rem 2rem 2rem;
+        padding: 2rem 0;
+        border-bottom: .5px solid rgb(193, 193, 193);
+    }
+
+    .khd {
+
+        display: flex;
+        justify-content: space-around;
+
+        .f {
+            display: flex;
+            justify-content: center;
+
+            .iconfont {
+                font-size: 4rem;
+                color: white;
+                padding-right: 1rem;
+            }
+        }
+    }
+
+    .last {
+        margin-top: 3rem;
+        text-align: center;
+    }
+}

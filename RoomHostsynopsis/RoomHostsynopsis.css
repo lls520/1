@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 10px;
+  background-color: #f5f5f5;
+}
+.swiper {
+  width: 95%;
+  height: 50rem;
+  margin: 0 auto;
+}
+.swiper .swiper-wrapper {
+  width: 100%;
+  height: 50rem;
+}
+.swiper .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 50rem;
+}
+.swiper .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 50rem;
+}
+header {
+  width: 95%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 2.6rem;
+}
+header h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+header .bigbox {
+  font-size: 1.6rem;
+}
+header .bigbox .box {
+  display: flex;
+  justify-content: space-between;
+}
+header .bigbox .box p {
+  margin-bottom: 1rem;
+}
+header .bigbox .box p span {
+  color: red;
+  font-weight: 800;
+}
+header .bigbox .box img {
+  width: 1.8rem;
+  height: 2.4rem;
+}
+header .bigbox .bll {
+  font-size: 1.4rem;
+  color: #a2a2a2;
+  margin-bottom: 1rem;
+}
+header .spa {
+  font-size: 1.4rem;
+  display: inline-block;
+  color: #6685a9;
+  background-color: #dee9f0;
+  padding: 0.4rem;
+  margin-right: 0.6rem;
+}
+.coo1 {
+  width: 95%;
+  margin: 2rem auto;
+  background-color: white;
+}
+.coo1 table {
+  margin: 0 2rem;
+}
+.coo1 table tr td {
+  border-bottom: 0.1px solid #afafaf;
+  font-size: 1.4rem;
+  width: 80rem;
+  height: 4.8rem;
+  line-height: 4.8rem;
+}
+.coo1 ul li {
+  border-bottom: 0.1px solid #b8b8b8;
+  font-size: 1.4rem;
+  height: 4.8rem;
+  line-height: 4.8rem;
+  margin: 0 2rem;
+}
+.coo1 p {
+  width: 100%;
+  text-align: center;
+}
+.coo1 p a {
+  color: #c3c3c3;
+  display: inline-block;
+  padding: 1.5rem 0;
+  font-size: 1.4rem;
+}
+.coo2 {
+  width: 95%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 2rem;
+}
+.coo2 h2 {
+  font-size: 2.8rem;
+  color: orange;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #bebebe;
+}
+.coo2 p {
+  padding: 2rem 0;
+  line-height: 1.6;
+  font-size: 1.4rem;
+  border-bottom: 1px solid #bebebe;
+}
+.coo2 div {
+  padding-top: 2rem;
+  text-align: center;
+}
+.coo2 div a {
+  color: #bebebe;
+  font-size: 1.4rem;
+}
+.coo3 {
+  width: 95%;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 2rem;
+}
+.coo3 h1 {
+  font-size: 2.8rem;
+  color: orange;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #bebebe;
+}
+.coo3 ul li {
+  display: flex;
+  padding: 2rem 0;
+}
+.coo3 ul li img {
+  margin-right: 1.5rem;
+  width: 12rem;
+  height: 12rem;
+}
+.coo3 ul li .boxa p {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  font-weight: 900;
+}
+.coo3 ul li .boxa .spans span {
+  font-size: 1.4rem;
+  display: inline-block;
+  padding: 0.8rem 1rem;
+  color: #3e7ba0;
+  background-color: #f5f5f5;
+  margin-right: 1rem;
+}
+.coo3 ul li:nth-of-type(1) {
+  border-bottom: 2px solid #f6c66d;
+}
+.coo4 {
+  width: 95%;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 2rem;
+}
+.coo4 h1 {
+  font-size: 2.8rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #bebebe;
+}
+.coo4 ul li {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #bebebe;
+  font-size: 1.6rem;
+}
+.coo4 ul li span {
+  color: #bebebe;
+}
+.coo4 p {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+.coo4 p a {
+  color: #bebebe;
+  font-size: 1.4rem;
+}
+.coo5 {
+  width: 95%;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 2rem;
+}
+.coo5 h1 {
+  font-size: 2.8rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #bebebe;
+}
+.coo5 img {
+  width: 100%;
+  margin-top: 2rem;
+}
+.coo6 {
+  width: 95%;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 2rem;
+}
+.coo6 h1 {
+  font-size: 2.8rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #bebebe;
+}
+.coo6 ul li {
+  border-bottom: 1px solid #bebebe;
+  padding-top: 2rem;
+}
+.coo6 ul li .bb {
+  display: flex;
+}
+.coo6 ul li .bb img {
+  width: 12rem;
+  height: 12rem;
+  margin-right: 1.5rem;
+  margin-top: 2rem;
+}
+.coo6 ul li .bb .sb {
+  flex: 2;
+}
+.coo6 ul li .bb .sb h2 {
+  font-size: 2.8rem;
+}
+.coo6 ul li .bb .sb p {
+  width: 100%;
+  font-size: 1.6rem;
+  margin: 1.4rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.coo6 ul li .bb .sb p .or {
+  color: orange;
+}
+.coo6 ul li .bb .sb .bl span {
+  color: #aeaeae;
+}
+.coo6 ul li .bb .gy {
+  padding: 0.4rem;
+  display: inline-block;
+  font-size: 1.6rem;
+  color: #2d81a2;
+  background-color: #f2f2f2;
+}
+.coo6 ul li .qipao {
+  padding: 1.5rem;
+  margin: 1rem 0 2rem 0;
+  background-color: #f2f2f2;
+  font-size: 1.6rem;
+  position: relative;
+}
+.coo6 ul li .qipao .sanjao {
+  width: 1rem;
+  height: 1rem;
+  border-top: 1rem solid rgba(240, 18, 18, 0);
+  border-bottom: 1rem solid #f2f2f2;
+  border-left: 1rem solid rgba(0, 27, 233, 0);
+  border-right: 1rem solid rgba(0, 233, 50, 0);
+  background-color: rgba(255, 0, 0, 0);
+  position: absolute;
+  top: -2rem;
+}
+.coo6 .cen {
+  text-align: center;
+  margin-top: 2rem;
+}
+.coo6 .cen a {
+  color: #b0b0b0;
+  font-size: 1.4rem;
+}
+footer {
+  width: 100%;
+  height: 30rem;
+  background-color: #2f3130;
+  margin-top: 3rem;
+}
+footer p {
+  color: #c1c1c1;
+  font-size: 1.6rem;
+}
+footer h2 {
+  color: #c1c1c1;
+  font-size: 1.6rem;
+  margin: 0 2rem 2rem 2rem;
+  padding: 2rem 0;
+  border-bottom: 0.5px solid #c1c1c1;
+}
+footer h2 a {
+  color: #c1c1c1;
+}
+footer .khd {
+  display: flex;
+  justify-content: space-around;
+}
+footer .khd .f {
+  display: flex;
+  justify-content: center;
+}
+footer .khd .f .iconfont {
+  font-size: 4rem;
+  color: white;
+  padding-right: 1rem;
+}
+footer .last {
+  margin-top: 3rem;
+  text-align: center;
+}
+.man {
+  box-sizing: border-box;
+  width: 100%;
+  height: 7rem;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #bcbcbc;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.man button {
+  width: 70%;
+  background: url(../img/SecondHandList/user.png) no-repeat 6rem;
+  background-color: orange;
+  background-size: 3.8rem;
+  border: none;
+  border-radius: 6px;
+  color: wheat;
+  font-size: 1.6rem;
+  transition: all 0.1s;
+}
+.man button:hover {
+  background-color: #ff8a00;
+  color: white;
+}
+.man .img {
+  width: 19%;
+  height: 5rem;
+  background: url(../img/SecondHandList/xin.png) no-repeat;
+  background-size: 5rem;
+  margin-left: 6rem;
+}
+.man p {
+  width: 9%;
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 1.6rem;
+  margin-left: 1rem;
+}
