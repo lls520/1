@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    width: 100%;
+}
+input{
+    border: 0;
+    outline: none;
+}
+.header-box{
+    width: 100%;
+    background-color: rgb(255,138,0);
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 8rem;
+    margin-left: 2rem;
+    margin-right: 5rem;
+}
+
+.my, .xiazai{
+    width: 1.5rem;
+    margin-left: 1.5rem;
+}
+.nav-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    padding-left: 1rem;
+    width: 96%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    border-bottom: 1px solid rgb(181, 181, 181);
+}
+.nav li{
+    float: left;
+    margin-right: 0.2rem;
+    font-size: 0.8rem;
+}
+.nav li:nth-of-type(1){
+    font-weight: bold;
+}
+.dlfs{
+    width: 100% !important;
+    height: 3rem !important;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0 !important;
+}
+.dlfs p{
+    width: 50%;
+    height: 3rem !important;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 0.8rem;
+    border-bottom: 5px solid rgb(255,138,0) ;
+}
+.dlfs p:nth-of-type(2){
+    border-color: rgb(204, 200, 200) ;
+}
+.nav-box div{
+    padding-left: 1rem;
+    width: 96%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    border-bottom: 1px solid rgb(181, 181, 181);
+   
+}
+.nav-box div input{
+    width: 69%;
+    height: 90%;
+}
+.ljzc{
+    width: 95%;
+    height: 2.5rem;
+    margin-left: 0.6rem;
+    margin-top: 1rem;
+    background-color: rgb(197, 188, 188);
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+.footer{
+    width: 95%;
+    margin: 0 auto;
+    height: 2rem;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+.footer a:nth-of-type(1){
+    float: left;
+    color: rgb(255,138,0);
+}
+.footer a:nth-of-type(2){
+    float: right;
+    color: rgb(197, 188, 188);
+}
+.yzm{
+    float: right;
+    width: 5rem;
+    height: 2rem;
+    margin-top: 0.2rem;
+    margin-right: 1rem;
+    color: gray;
+    border: 1px solid rgb(181, 181, 181);
+    cursor: pointer;
+}
+
+.kuaijie{
+    margin-top: 4px;
+    display: none;
+}

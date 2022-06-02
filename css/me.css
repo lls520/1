@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    width: 100%;
+}
+input{
+    border: 0;
+    outline: none;
+}
+body{
+    background-color: rgb(241, 232, 232);
+}
+.nav-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.welcome{
+    width: 100%;
+    height: 12rem !important;
+    background: url(../img/my/bg1.png) !important;
+    position: relative;
+
+}
+.mine{
+    position: absolute;
+    display: block;
+    width: 2rem;
+    padding-top: 1rem;
+    background: url(../img/my/urse.png) no-repeat 0.3rem 0rem;
+    background-size: 1rem 1rem;
+    font-size: 0.8rem;
+    color: white;
+    line-height:1.2rem !important;
+    top: 0.8rem;
+    right: 4rem;
+}
+.xia{
+    position: absolute;
+    display: block;
+    width: 2rem;
+    padding-top: 1rem;
+    background: url(../img/my/down.png) no-repeat 0.2rem 0rem;
+    background-size: 1rem 1rem;
+    font-size: 0.8rem;
+    color: white;
+    line-height:1.2rem !important;
+    top: 0.8rem;
+    right: 1rem;
+}
+
+.tx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 0 !important;
+}
+.tx img{
+    margin-top: 4rem;
+    width: 3.5rem;
+}
+.dl{
+    margin-top: 1rem;
+    width: 4rem;
+    height: 1.5rem;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.welcome p{
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: white;
+}
+.nav-box >div{
+    padding-left: 1rem;
+    width: 96%;
+    height: 3rem;
+    line-height: 3rem;
+    border-bottom: 1px solid rgb(181, 181, 181);
+    background: url(../img/my/right.png) no-repeat 21rem 0.8rem;
+    background-size:0.7rem 1rem;
+}
+.nav-box div a{
+    color: gray;
+    font-size: 0.8rem;
+    padding-left: 1.5rem;
+}
+.xin{
+    background: url(../img/my/icon1.png) no-repeat 0.3rem 0rem;
+    background-size: 1rem 1rem;
+}
+.shu{
+    background: url(../img/my/icon2.png) no-repeat 0.3rem 0rem;
+    background-size: 1rem 1rem;
+
+}
+.xf{
+    background: url(../img/my/icon3.png) no-repeat 0.3rem 0rem;
+    background-size: 1rem 1rem; 
+}
+.jl{
+    background: url(../img/my/icon4.png) no-repeat 0.3rem 0rem;
+    background-size: 1rem 1rem;
+}
